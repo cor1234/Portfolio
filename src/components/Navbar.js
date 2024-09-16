@@ -13,7 +13,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-import { PiStudentBold } from "react-icons/pi";
+//import { PiStudentBold } from "react-icons/pi";
 // import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -75,7 +75,7 @@ function NavBar() {
                 to="/codingprofile"
                 onClick={() => updateExpanded(false)}
               >
-                <PiStudentBold  style={{ marginBottom: "2px" }} /> Coding
+                <AiOutlineUser  style={{ marginBottom: "2px" }} /> Coding
               </Nav.Link>
             </Nav.Item>
 
