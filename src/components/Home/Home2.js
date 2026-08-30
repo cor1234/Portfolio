@@ -19,25 +19,16 @@ function Home2() {
              I would like to have this  <span className="purple">opportunity</span> to tell you something about myself
             </h1>
             <p className="home-about-body">
-I have learnt few basics in web development and i would like to work on it.
-              <br />
-              <br />Languages known
-              <i>
-                <b className="purple"> C, C++, Javascript, Python, Java. </b>
-              </i>
+              I am <span className="purple">Rohan Kumar</span>, a 2024 B.Tech graduate in Electronics and Communication Engineering from NIT Kurukshetra. I am a software engineer with a strong foundation in problem solving, backend development, data engineering, and Generative AI.
               <br />
               <br />
-              My field of Interest's are &nbsp;
-              <i>
-                <b className="purple">Web Technologies </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Programming.
-                </b>
-              </i>
+              I have solved <span className="purple">2,000+ DSA problems</span> on platforms such as LeetCode, Codeforces, and CodeChef, where I have built strong analytical and algorithmic thinking skills. My work combines software engineering fundamentals with enterprise-scale system design and AI-driven product development.
               <br />
               <br />
-             
+              My technical expertise includes <span className="purple">Python, Java, C++, SQL, FastAPI, Spring Boot, REST APIs, PySpark, Snowflake, PostgreSQL, MongoDB, Azure, AWS, Docker, Kubernetes, LangChain, LangGraph, RAG, MCP, Azure OpenAI, and AWS Bedrock.</span>
+              <br />
+              <br />
+              I enjoy building end-to-end solutions from data ingestion and processing to AI workflows, APIs, and cloud-native production deployment.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

@@ -8,29 +8,30 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Rohan Kumar </span>
-            from <span className="purple"> National Institute of Technology, Kurukshetra. </span>
-            <br />And have pursued Btech in  Electronics and  Communication Engineering.
+            I am <span className="purple">Rohan Kumar</span>, a 2024 B.Tech graduate in <span className="purple">Electronics and Communication Engineering</span> from <span className="purple">NIT Kurukshetra.</span>
             <br />
             <br />
-           My interest and hobbies......
+            I am a software engineer with experience across <span className="purple">AI Engineering, Backend Engineering, and Data Engineering.</span> My work focuses on building scalable, cloud-based products and data-driven AI systems that solve real-world business problems.
+            <br />
+            <br />
+            I have hands-on experience in backend design, data pipelines, cloud architecture, and generative AI workflows, and I enjoy turning complex requirements into reliable production systems.
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight />Cricket
+              <ImPointRight /> Problem solving and DSA
             </li>
             <li className="about-activity">
-              <ImPointRight /> Dance
+              <ImPointRight /> Backend and cloud engineering
             </li>
             <li className="about-activity">
-              <ImPointRight /> Acting
+              <ImPointRight /> Generative AI and agentic systems
             </li>
             <li className="about-activity">
-              <ImPointRight /> Music
-              </li>
-              <li className="about-activity">
-              <ImPointRight /> Travelling
-              </li>
+              <ImPointRight /> Data pipelines and analytics
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Continuous learning and building impactful products
+            </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>

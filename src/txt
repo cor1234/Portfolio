@@ -1,0 +1,1191 @@
+% \documentclass[a4paper,11pt]{article}
+% \usepackage{latexsym}
+% \usepackage{xcolor}
+% \usepackage{float}
+% \usepackage{ragged2e}
+% \usepackage[empty]{fullpage}
+% \usepackage{wrapfig}
+% \usepackage{lipsum}
+% \usepackage{tabularx}
+% \usepackage{titlesec}
+% \usepackage{geometry}
+% \usepackage{marvosym}
+% \usepackage{verbatim}
+% \usepackage{enumitem}
+% \usepackage[hidelinks]{hyperref}
+% \usepackage{fancyhdr}
+% \usepackage{fontawesome5}
+% \usepackage{multicol}
+% \usepackage{graphicx}
+% \usepackage{cfr-lm}
+% \usepackage[T1]{fontenc}
+% \setlength{\multicolsep}{0pt}
+% \pagestyle{fancy}
+% \fancyhf{} % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+% \geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+% % Adjust margins
+% %\addtolength{\oddsidemargin}{-0.5in}
+% %\addtolength{\evensidemargin}{-0.5in}
+% %\addtolength{\textwidth}{1in}
+% \usepackage[most]{tcolorbox}
+% \tcbset{
+% frame code={}
+% center title,
+% left=0pt,
+% right=0pt,
+% top=0pt,
+% bottom=0pt,
+% colback=gray!20,
+% colframe=white,
+% width=\dimexpr\textwidth\relax,
+% enlarge left by=-2mm,
+% boxsep=4pt,
+% arc=0pt,outer arc=0pt,
+% }
+
+% \urlstyle{same}
+
+% \raggedright
+% \setlength{\tabcolsep}{0in}
+
+% % Sections formatting
+% \titleformat{\section}{
+%   \vspace{-4pt}\scshape\raggedright\large
+% }{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% %-------------------------
+% % Custom commands
+% \newcommand{\resumeItem}[2]{
+%   \item{
+%     \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
+%   }
+% }
+
+% \newcommand{\resumePOR}[3]{
+% \vspace{0.5mm}\item
+%     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%         \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}}
+%     \end{tabular*}
+%     \vspace{-2mm}
+% }
+
+% \newcommand{\resumeSubheading}[4]{
+% \vspace{0.5mm}\item
+%     \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%         \textbf{#1} & \textit{\footnotesize{#4}} \\
+%         \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+%     \end{tabular*}
+%     \vspace{-2.4mm}
+% }
+
+% \newcommand{\resumeProject}[4]{
+% \vspace{0.5mm}\item
+%     \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%         \textbf{#1} & \textit{\footnotesize{#3}} \\
+%         \footnotesize{\textit{#2}} & \footnotesize{#4}
+%     \end{tabular*}
+%     \vspace{-2.4mm}
+% }
+
+% \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+% % \renewcommand{\labelitemii}{$\circ$}
+% \renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]}
+% \newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+% \newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
+
+% \newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+% \newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+% \newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+% \newcommand{\cvsection}[1]{%
+% \vspace{2mm}
+% \begin{tcolorbox}
+%     \textbf{\large #1}
+% \end{tcolorbox}
+%     \vspace{-4mm}
+% }
+
+% \newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+% \newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+% \newcolumntype{C}{>{\centering\arraybackslash}X}%
+% %---- End of Packages and Functions ------
+
+% %-------------------------------------------
+% %%%%%%  CV STARTS HERE  %%%%%%%%%%%
+% %%%%%% DEFINE ELEMENTS HERE %%%%%%%
+% \newcommand{\name}{Rohan Kumar} % Your Name
+% \newcommand{\course}{Bachelor of Technology} % Your Program
+% \newcommand{\phone}{6207013849} % Your Phone Number
+% \newcommand{\emailb}{rohandbg2019.rk@gmail.com} %Email 2
+
+
+% \begin{document}
+% \fontfamily{cmr}\selectfont
+% %----------HEADING-----------------
+
+
+% \parbox{2.35cm}{%
+
+% }
+% \parbox{\dimexpr\linewidth-0.4cm\relax}{
+% \begin{tabularx}{\linewidth}{L r} \\
+%   \textbf{\Large \name} & {\raisebox{0.0\height}{\footnotesize \faPhone}\ +91-\phone}\\
+%   \course &  \href{mailto:\emailb}{\raisebox{0.0\height}{\footnotesize \faEnvelope}\ {\emailb}}\\
+%   {Electronics and communication Engineering} &  \href{ https://github.com/cor1234 }{\raisebox{0.0\height}{\footnotesize \faGithub}\ {cor1234}} \\
+%   { National Institute of Technology, Kurukshetra} & \href{https://www.linkedin.com/in/rohan-kumar-465218227/}{\raisebox{0.0\height}{\footnotesize \faLinkedin}\ {Rohan Kumar}}
+  
+% \end{tabularx}
+% { Address: Pune, Maharashtra -411057}
+% }
+% % \parbox{3.0cm}{%https://www.overleaf.com/download/project/6455fbdb6baaf04c265594c1/build/188fd377829-324403e7490e10fe/output/output.pdf?compileGroup=standard&clsiserverid=clsi-pre-emp-n2d-c-f-t8w5&enable_pdf_caching=true&popupDownload=true
+% % \flushright \includegraphics[width=2cm,clip]{nitp_logo.png}
+% % }
+
+
+
+
+% %-----------EDUCATION-----------
+% \section{\textbf{Education}}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {National Institute of Technology, Kurukshetra}{CGPA: \textbf{8.37}(till 8th Sem)}
+%       { Bachelor of Technology in Electronics and communication Engineering}{2020-2024}
+%   %   \resumeSubheading
+%   %     {Rose public school }{Percentage: 87.9\%}
+%   %     { Intermediate-Central Board of secondary Education}{2019}
+%   %   \resumeSubheading
+%   %     {Rose public school }{CGPA: 10\%}
+%   %     {High school- Central Board of secondary Education}{2017}
+%  \resumeSubHeadingListEnd
+% \vspace{-7.5mm}
+% %
+% %-----Experience--------------- 
+% \section{\textbf{Experience}}
+%   \resumeSubHeadingListStart
+%      \resumeProject
+%       { Capgemini : Senior Analyst}{}{Nov 2024 - Jan 2026} %Project Name
+
+%          % {\href{https://github.com/cor1234/snappy}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {\textcolor{blue}{\bfseries Source Code}}}
+         
+%      % // {     |    }
+%      %  \href{https://drive.google.com/file/d/1Msr29wvKs-5U8SOQarEkWfTe3oYGLBd1/view?usp=drive_link}{\raisebox{0.0\height}{\footnotesize\ {\textcolor{blue}{\bfseries Video Link}}}}
+%        %Project Name, Location Name
+%        %Event Dates
+%      \vspace{-12.6}
+%       \resumeItemListStart
+%         % \item {{\bfseries Tools \& technologies used:}  JavaScript,React Js,Node js,express js, Mongo db, Socket.io,Vs Code}
+%         \item { Developed and deployed dimension, fact, and domain tables in Snowflake.This included designing schema structures aligned with business requirements and optimizing queries for performance.}
+%         \vspace{3.6}
+% \item {Implemented data migration workflows from AWS Glue to PostgreSQL, ensuring data consistency and optimized query performance. }
+%    \vspace{3.6}
+%    \item {Engineered scalable Spring Boot microservices and React frontend components for a Construction Workforce Management Platform.}
+%    % \vspace{3.6}
+%    %  \item {Built multi-agent architecture (Planner, Architect, and Coder) powered by a Groq-hosted LLM to convert requirements into structured plans and executable implementation steps.}
+%     \vspace{3.6}
+% \item {Improved timesheet processing efficiency and automation of shift scheduling.
+% Developed paginated RESTful APIs in Spring Boot with Swagger documentation.}
+%         \vspace{3.6}
+%         \item {Analyzed and resolved production data flow issues originating from Informatica IDMC, ensuring high data quality and reliability. Conducted root cause analysis to identify bottlenecks or mapping errors, and implemented corrective measures. This proactive approach minimized downtime and improved pipeline stability.. }
+%         \vspace{3.6}
+%        \item{{\bfseries Tools \& technologies used:} Python, Pyspark , Snowflake,AWS Glue,Springboot, Swagger , Java, React js}
+
+%     \resumeItemListEnd
+%   % \resumeSubHeadingListEnd
+% \vspace{-3.5mm}
+%   % \resumeSubHeadingListStart
+%      \resumeProject
+%       { PWC India : Associate}{}{Jan 2026 - Present} %Project Name
+
+%          % {\href{https://github.com/cor1234/snappy}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {\textcolor{blue}{\bfseries Source Code}}}
+         
+%      % // {     |    }
+%      %  \href{https://drive.google.com/file/d/1Msr29wvKs-5U8SOQarEkWfTe3oYGLBd1/view?usp=drive_link}{\raisebox{0.0\height}{\footnotesize\ {\textcolor{blue}{\bfseries Video Link}}}}
+%        %Project Name, Location Name
+%        %Event Dates
+%      \vspace{-12.6}
+%       \resumeItemListStart
+%         % \item {{\bfseries Tools \& technologies used:}  JavaScript,React Js,Node js,express js, Mongo db, Socket.io,Vs Code}
+%         % \item { Developed and deployed dimension, fact, and domain tables in Snowflake.This included designing schema structures aligned with business requirements and optimizing queries for performance.}
+%         % \vspace{3.6}
+% % \item {Implemented data migration workflows from AWS Glue to PostgreSQL, ensuring data consistency and optimized query performance. }
+% %    \vspace{3.6}
+%    % \item {Built an intelligent chatbot leveraging AWS Bedrock and LangChain agents to automatically generate code and test cases from uploaded CSV files, enhancing development efficiency}
+%    \vspace{3.6}
+%     \item {Built multi-agent architecture (Planner, Architect, and Coder) powered by a Groq-hosted LLM to convert requirements into structured plans and executable implementation steps.}
+%     \vspace{3.6}
+% % \item {Designed and automated data segregation pipelines from Azure Blob Storage to Azure Data Lake using Azure Data Factory (ADF), enabling structured data organization and seamless inter-layer data flow.}
+% %         \vspace{3.6}
+%         \item {Designed RESTful APIs and implemented data validation using Pydantic schemas to ensure structured and reliable request/response handling.}
+%         % \vspace{3.6}
+% %          \item {Engineered and deployed scalable Spring boot microservices and React.js front-end components for a Construction
+% % Workforce Management Platform, improving timesheet processing efficiency and automation of shift scheduling}
+%          \vspace{3.6}
+%          \item {Developed full stack AI chatbot platform using React js , Node js, Mongo DB/ cosmos DB, Fast API, and Azure OpenAI, supporting normal chat, document summarization, translation , RAG, and multi-agent workflow}
+%          \vspace{3.6}
+%            \item {Integrated Azure AI Search for retrieval-augmented generation with domain filtering , configurable top based result on semantic search and automate it using azure function}
+%          \vspace{3.6}
+%        \item{{\bfseries Tools \& technologies used:} Python , Azure AI Search, Azure Function, React js , Fast API}
+% \vspace{-1.5mm}
+%     \resumeItemListEnd
+%   \resumeSubHeadingListEnd
+% \vspace{-10.5mm}
+
+
+% % %-----------PROJECTS-----------------
+% % \section{\textbf{Personal Projects}}
+% % % \resumeSubHeadingListStart
+
+% % %     \resumeProject
+% % %       { Shopping Cart} %Project Name
+% % %       {\href{https://github.com/cor1234/Shopping_Cart}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {\textcolor{blue}{\bfseries Source Code}}}
+% % %       % {     |    }
+% % %       % \href{https://drive.google.com/file/d/11O_Va6dneP7o0CjChw6kUdH9A-SmcbBl/view?usp=drivesdk}{\raisebox{0.0\height}{\footnotesize\ {\textcolor{blue}{\bfseries Video Link}}}}
+% % %       } %Project Name, Location Name
+% % %       {August 2024} %Event Dates
+
+% % %       \resumeItemListStart
+% % %         \item {{\bfseries Tools \& technologies used:}  Java,Spring boot, HTML,CSS,MySql }
+% % %         \item { This shopping cart website offers features such as user registration, login, password recovery, and product ordering under various categories. It includes delivery and payment options for a seamless shopping experience. The platform also features an admin panel designed to manage and oversee activities across different sections, including categories, products, orders, and users.
+% % % % \item{ If players position their marks such that they make a continuous line of three cells vertically, horizontally, or diagonally ,a graphics showing winner will pop up along with a winning sound.}
+% % % % \item{A reset button is their to start the game from the skratch.}
+% % %     \resumeItemListEnd
+% %  %    \vspace{2mm}
+   
+  
+
+% %  % \resumeItemListEnd
+% %  %    \vspace{-1mm}
+% %          % \resumeSubHeadingListStart
+% % %     \resumeProject
+% % %       { Doctor Appointment System
+% % % } %Project Name
+% % %          {\href{https://github.com/cor1234?tab=repositories}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {\textcolor{blue}{\bfseries Source Code}}}
+% % %      % // {     |    }
+% % %      %  \href{https://drive.google.com/file/d/1Msr29wvKs-5U8SOQarEkWfTe3oYGLBd1/view?usp=drive_link}{\raisebox{0.0\height}{\footnotesize\ {\textcolor{blue}{\bfseries Video Link}}}}
+% % %       } %Project Name, Location Name
+% % %       {May 2023} %Event Dates
+
+% % %       \resumeItemListStart
+% % %         \item {{\bfseries Tools \& technologies used:}  Javascript,React js, Mongo db, Node js, Cloudinary}
+% % %         \item { This includers portal where patients and doctors can register, manage profiles, and book appointments. Admin can oversee users and appointments. Built with React.js, Node.js, MongoDB, and Cloudinary for image uploads.
+% % %         \resumeItemListEnd
+
+
+% % %    \resumeSubHeadingListStart
+% % %     \resumeProject
+% % %       { Shopping Cart
+% % % } %Project Name
+% % %          {\href{https://github.com/cor1234?tab=repositories}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {\textcolor{blue}{\bfseries Source Code}}}
+% % %      % // {     |    }
+% % %      %  \href{https://drive.google.com/file/d/1Msr29wvKs-5U8SOQarEkWfTe3oYGLBd1/view?usp=drive_link}{\raisebox{0.0\height}{\footnotesize\ {\textcolor{blue}{\bfseries Video Link}}}}
+% % %       } %Project Name, Location Name
+% % %       {March 2023} %Event Dates
+
+% % %       \resumeItemListStart
+% % %         \item {{\bfseries Tools \& technologies used:}  Java,Spring boot, HTML,CSS,MySql}
+% % %         \item { TThis shopping cart website enables user registration, login, password recovery, and seamless product ordering across
+% % % multiple categories. It offers integrated delivery and payment options, along with an admin panel to manage users,
+% % % products, orders, and categories efficiently..
+
+% % %     \resumeItemListEnd
+
+% % %     \resumeSubHeadingListStart
+% % %     \resumeProject
+% % %       { Shopping Cart
+% % % } %Project Name
+% % %          {\href{https://github.com/cor1234/snappy}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {\textcolor{blue}{\bfseries Source Code}}}
+% % %      % // {     |    }
+% % %      %  \href{https://drive.google.com/file/d/1Msr29wvKs-5U8SOQarEkWfTe3oYGLBd1/view?usp=drive_link}{\raisebox{0.0\height}{\footnotesize\ {\textcolor{blue}{\bfseries Video Link}}}}
+% % %       } %Project Name, Location Name
+% % %       {March 2023} %Event Dates
+
+% % %       \resumeItemListStart
+% % %         \item {{\bfseries Tools \& technologies used:}  JavaScript,React Js,Node js,express js, Mongo db, Socket.io,Vs Code}
+% % %         \item { This is a digital platform designed for exchanging text messages, enabling seamless communication in real-time. It typically includes functionalities such as login, logout, and emoji support to enhance the user experience..
+
+% % %     \resumeItemListEnd
+% % %     \vspace{-2.5mm}
+
+% % %      \resumeSubHeadingListStart
+% % %     \resumeProject
+% % %       { Shopping Cart
+% % % } %Project Name
+% % %          {\href{https://github.com/cor1234?tab=repositories}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {\textcolor{blue}{\bfseries Source Code}}}
+% % %      % // {     |    }
+% % %      %  \href{https://drive.google.com/file/d/1Msr29wvKs-5U8SOQarEkWfTe3oYGLBd1/view?usp=drive_link}{\raisebox{0.0\height}{\footnotesize\ {\textcolor{blue}{\bfseries Video Link}}}}
+% % %       } %Project Name, Location Name
+% % %       {May 2023} %Event Dates
+
+% % %       \resumeItemListStart
+% % %         \item {{\bfseries Tools \& technologies used:}  Java,Spring boot, HTML,CSS,MySql}
+% % %         \item {  This shopping cart website enables user registration, login, password recovery, and seamless product ordering across multiple categories. It offers integrated delivery and payment options, along with an admin panel to manage users, products, orders, and categories efficiently.
+% % % % under various categories. It includes delivery and payment options for a seamless shopping experience. The
+% % % % platform also features an admin panel designed to manage and oversee activities across different sections, including
+% % % % categories, products, orders, and users.
+% % %         \resumeItemListEnd
+
+% % %           \resumeSubHeadingListStart
+% % %     \resumeProject
+% % %       { Doctor Appointment System
+% % % } %Project Name
+% % %          {\href{https://github.com/cor1234?tab=repositories}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {\textcolor{blue}{\bfseries Source Code}}}
+% % %      % // {     |    }
+% % %      %  \href{https://drive.google.com/file/d/1Msr29wvKs-5U8SOQarEkWfTe3oYGLBd1/view?usp=drive_link}{\raisebox{0.0\height}{\footnotesize\ {\textcolor{blue}{\bfseries Video Link}}}}
+% % %       } %Project Name, Location Name
+% % %       {May 2023} %Event Dates
+
+% % %       \resumeItemListStart
+% % %         \item {{\bfseries Tools \& technologies used:}  Javascript,React js, Mongo db, Node js, Cloudinary}
+% % %         \item {  A web-based Doctor Appointment System where patients and doctors can register, manage profiles, and book appointments. Admin can oversee users and appointments. Built with React.js, Node.js, MongoDB, and Cloudinary for image uploads.
+% % %         \resumeItemListEnd
+
+
+        
+        
+% % %      \vspace{1.5mm}
+% %      \resumeSubHeadingListStart
+% %        \resumeProject
+% %       {Gesture Control} %Project Name
+% %          {\href{https://github.com/EmrNITK/GestureControl}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {\textcolor{blue}{\bfseries Source Code}}}
+% %      % // {     |    }
+% %      %  \href{https://drive.google.com/file/d/1Msr29wvKs-5U8SOQarEkWfTe3oYGLBd1/view?usp=drive_link}{\raisebox{0.0\height}{\footnotesize\ {\textcolor{blue}{\bfseries Video Link}}}}
+% %       } %Project Name, Location Name
+% %       {October 2022} %Event Dates
+
+% %       \resumeItemListStart
+% %         \item {{\bfseries Tools \& technologies used:} {Python, PyAuto GUI, MediaPipe, Open cv}
+% %         \item {Designed and developed an interactive system that allows users to control multimedia content such as videos and volume sliders using hand or body gestures.The system enhances accessibility and user engagement by enabling seamless control of media playback through body movements}
+
+% %     \resumeItemListEnd
+% %     \vspace{-2mm}
+
+% %       \vspace{-2mm}
+% %      \resumeSubHeadingListStart
+% %        \resumeProject
+% %       {Blog App} %Project Name
+% %          {\href{https://github.com/cor1234/fastApiBlogApp}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {\textcolor{blue}{\bfseries Source Code}}}
+% %      % // {     |    }
+% %      %  \href{https://drive.google.com/file/d/1Msr29wvKs-5U8SOQarEkWfTe3oYGLBd1/view?usp=drive_link}{\raisebox{0.0\height}{\footnotesize\ {\textcolor{blue}{\bfseries Video Link}}}}
+% %       } %Project Name, Location Name
+% %       {feb 2026} %Event Dates
+
+% %       \resumeItemListStart
+% %         \item {{\bfseries Tools \& technologies used:} {Python, fast api, mongo db, sqlachemy,}
+% %         \item {The project is a compact FastAPI blog application that provides CRUD operations for notes/posts with server-rendered templates and static assets, backed by SQLite and validated with Pydantic schemas.}
+
+% %     \resumeItemListEnd
+% %      \vspace{-2mm}
+
+% % %      \resumeProject
+% % %       {Shopping Cart} %Project Name
+% % %          {\href{https://github.com/EmrNITK/GestureControl}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {\textcolor{blue}{\bfseries Source Code}}}
+% % %      % // {     |    }
+% % %      %  \href{https://drive.google.com/file/d/1Msr29wvKs-5U8SOQarEkWfTe3oYGLBd1/view?usp=drive_link}{\raisebox{0.0\height}{\footnotesize\ {\textcolor{blue}{\bfseries Video Link}}}}
+% % %       } %Project Name, Location Name
+% % %       {October 2022} %Event Dates
+
+% % %       \resumeItemListStart
+% % %         \item {{\bfseries Tools \& technologies used:} {Java,Spring boot, HTML,CSS,MySql}
+% % %         \item {This shopping cart website offers features such as user registration, login, password recovery, and product ordering
+% % % under various categories. It includes delivery and payment options for a seamless shopping experience. The
+% % % platform also features an admin panel designed to manage and oversee activities across different sections, including
+% % % categories, products, orders, and users.}
+
+% % %     \resumeItemListEnd
+% %     % \vspace{-2mm}
+% % % \resumeSubHeadingListStart
+% % %     \resumeProject
+% % %       { IDEA FS
+% % % } %Project Name
+% % %          {\href{https://github.com/cor1234/snappy}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {\textcolor{blue}{\bfseries Source Code}}}
+% % %      % // {     |    }
+% % %      %  \href{https://drive.google.com/file/d/1Msr29wvKs-5U8SOQarEkWfTe3oYGLBd1/view?usp=drive_link}{\raisebox{0.0\height}{\footnotesize\ {\textcolor{blue}{\bfseries Video Link}}}}
+% % %       } %Project Name, Location Name
+% % %       {Feb 2025} %Event Dates
+
+% % %       \resumeItemListStart
+% % %         \item {{\bfseries Tools \& technologies used:}  React js, AWS, Python}
+% % %         \item { This is an internal project of Capgemini where I Build connection between mongo db and AWS Document db . Also, created ETL job on AWS Glue for data processing.
+
+% % %     \resumeItemListEnd
+% % %     \resumeProject
+% % %       { Smart Home} %Project Name
+% % %       {\href{https://github.com/Kumarvinay710/Robotic_room_automation-2022-23-Project/tree/main}{\raisebox{0.0\height}{\footnotesize \faGithub}\ {\textcolor{blue}{\bfseries Source Code}}}
+% % %       {     |    }
+% % %       \href{https://youtu.be/UdR0xUox7no}{\raisebox{0.0\height}{\footnotesize\ {\textcolor{blue}{\bfseries Video Link}}}}
+% % %       } %Project Name, Location Name
+% % %       { Feb 2023} %Event Dates
+
+% % %       \resumeItemListStart
+% % %         \item {{\bfseries Tools \& technologies used:} Arduino Ide, Arduino UNO,sensors,RFID Tags and Reader.}
+% % % \item{developed an electronic door lock system that uses RFID technology with an Arduino and RC522 RFID Module.}
+% % % \item{To unlock the door, a specific card or key tag is required, which must be presented to the RFID reader. If an incorrect card or key tag is used, the door will not unlock.}
+% % % \item{designed the system with a manual override option in case of any hardware issues or power failures. This allows access to the premises using a traditional key if necessary.}
+% % %     \resumeItemListEnd
+% % %     \vspace{-2mm}
+   
+     
+% % %   \resumeSubHeadingListEnd
+% % % \vspace{-5.5mm}
+
+
+
+% %-----------Technical skills-----------------
+% \section{\textbf{Technical Skills }}
+%  \begin{itemize}[leftmargin=0.05in, label={}]
+%     \small{\item{
+%      \textbf{Languages}{: C, C++,Python, sql ,Java} \\
+%      \textbf{UI Tools}{: HTML, CSS ,Javascript, Mern Stack, Spring boot} \\
+%      \textbf{Library & Framework}{:  Open Cv , Pyspark,Pandas, Fast API,  Lanchain , Langgraph, Microsoft Agentic Framework} \\
+%      \textbf{Soft Skills}{: Teamwork, Leadership, Problem-solving. } \\
+%       \textbf{Cloud Technology}{: Azure, AWS, Snowflake } \\
+%      \textbf{Coursework}{: Oops, Os, DBMS, Data Structure,GenAi ,HLD,LLD } \\
+%      \textbf{DataBase and Framework}{: Mongo db,My SQL} \\
+%     }}
+%  \end{itemize}
+%  \vspace{-32pt}
+
+
+%  % \section{\textbf{Area of Interest}}
+%  % \begin{itemize}[leftmargin=0.05in, label={}]
+%  %    \small{\item{
+     
+%  %     \textbf{Data structure and Algorithm} \\
+%  %     \textbf{Competitive Programming}\\
+%  %     \textbf{Web-Development} \\
+%  %    }}
+%  % \end{itemize}
+%  \vspace{10pt}
+
+% %-----------Coding Profiles-----------------
+% \section{\textbf{Coding Profiles && Portfolio}}
+% \begin{itemize}[itemsep=-0.3em]
+%     % \item[$\bullet$]
+%     %  \textbf{LeetCode}{ \textbf{} }\hfill\href{https://leetcode.com/rohna1234/  }
+%     %  {{\texttt{\textcolor{blue}{\bfseries rohna1234 }}}}
+%     %  \\
+     
+%     %  \item[$\bullet$] \textbf{Codeforces} \hfill\href{ https://codeforces.com/profile/rohna2019.rk } {{\texttt{\textcolor{blue}{\bfseries rohna2019.rk}}}}\\
+     
+%     %    \item[$\bullet$] \textbf{Geek for Geek} \hfill\href{ https://auth.geeksforgeeks.org/user/rohan2019rk/practice } {{\texttt{\textcolor{blue}{\bfseries rohna2019rk}}}}\\
+       
+%     %    \item[$\bullet$] \textbf{HackerRank} \hfill\href{ https://www.hackerrank.com/rohan2019_rk?hr_r=1 } {{\texttt{\textcolor{blue}{\bfseries rohna2019_rk}}}}\\
+%     \quad \quad \quad
+%   \textbullet\ \href{https://leetcode.com/rohna1234/}{\bfseries LeetCode} \quad \quad
+% \textbullet\ \href{https://codeforces.com/profile/rohna2019.rk}{\bfseries Codeforces} \quad \quad
+% \textbullet\ \href{https://www.hackerrank.com/rohan2019_rk?hr_r=1}{\bfseries HackerRank} \quad \quad
+% \textbullet\ \href{https://auth.geeksforgeeks.org/user/rohan2019rk/practice}{\bfseries GeekforGeek} \quad \quad
+% \textbullet\ \href{https://my-portfolio-six-sooty-24.vercel.app/}{\bfseries Portfolio}
+
+   
+%  \end{itemize}
+%  \vspace{-30pt}
+
+
+% %  \vspace{16pt}
+% % \section{\textbf{Contributions}}
+% % \begin{itemize}[itemsep=-0.3em]
+% %     \item[$\bullet$]
+% %      \textbf{ I work as a co-leader to create this website,combining my skill to make it happen}{ \textbf{} }\hfill\href{https://emrnitk.github.io/  }
+% %      {{\texttt{\textcolor{blue}{\bfseries  Emr Website  }}}}
+% %      \\
+     
+% %      \item[$\bullet$] \textbf{I work as a member of Frontend team in OpenForce 2022 conducted by CodeFlow} \hfill\href{ https://open-force-2022.vercel.app/ } {{\texttt{\textcolor{blue}{\bfseries OpenForce 2022}}}}\\
+
+% %         % \item[$\bullet$] \textbf{I work as a coleader in open cv team in creating gesture control project} \hfill\href{ https://github.com/EmrNITK/GestureControl } {{\texttt{\textcolor{blue}{\bfseries Gesture Control}}}}\\
+     
+% %        % \item[$\bullet$] \textbf{Geek for Geek} \hfill\href{ https://auth.geeksforgeeks.org/user/rohan2019rk/practice } {{\texttt{\textcolor{blue}{\bfseries rohna2019rk}}}}\\
+       
+% %        % \item[$\bullet$] \textbf{HackerRank} \hfill\href{ https://www.hackerrank.com/rohan2019_rk?hr_r=1 } {{\texttt{\textcolor{blue}{\bfseries rohna2019_rk}}}}\\
+   
+% %  \end{itemize}
+% %  \vspace{-30pt}
+
+% %-----------Achievements-----------------
+%  \vspace{16pt}
+% % \section{\textbf{Contributions}}
+% % \begin{itemize}[itemsep=-0.3em]
+% %     \item[$\bullet$]
+% %      \textbf{I play a role of leader here}{ \textbf{} }\hfill\href{http://emrnitk.github.io  }
+% %      {{\texttt{\textcolor{blue}{\bfseries Emr Website }}}}
+% %      \\
+     
+% %      \item[$\bullet$] \textbf{Completion of React js course from Basics to Advanced} \hfill\href{ https://www.credential.net/d2dbaa9a-9201-430f-aaa6-8d8b42ef2b9b#gs.xio3bp } {{\texttt{\textcolor{blue}{\bfseries UpGrad}}}}\\
+     
+% %        \item[$\bullet$] \textbf{Problem Solving (Intermediate) Certificate} \hfill\href{ https://www.hackerrank.com/certificates/03c081f5b1bf } {{\texttt{\textcolor{blue}{\bfseries HackerRank}}}}\\
+       
+% %        \item[$\bullet$] \textbf{Successfuly qualify in SnackDown 2021(Rounf 1b)} \hfill\href{ https://www.linkedin.com/in/rohan-kumar-465218227/details/featured/1635476472030/single-media-viewer/?profileId=ACoAADjOkY0BxVpJGo_Il2IZiMmxzPkID_YLZjk } {{\texttt{\textcolor{blue}{\bfseries CodeChef}}}}\\
+   
+% %  \end{itemize}
+% %  \vspace{-30pt}
+% %  \vspace{16pt}
+% \section{\textbf{Achievements}}
+% \begin{itemize}[itemsep=-0.3em]
+%     \item[$\bullet$]
+%      \textbf{Achieved 106th rank in Codhathon 2022, an inter-NIT coding competition.}{ \textbf{} }\hfill\href{https://www.linkedin.com/in/rohan-kumar-465218227/overlay/1635488065449/single-media-viewer/  }
+%      {{\texttt{\textcolor{blue}{\bfseries NIT Allahabad }}}}
+%      \\
+     
+%      \item[$\bullet$] \textbf{Completion of React js course from Basics to Advanced} \hfill\href{ https://www.credential.net/d2dbaa9a-9201-430f-aaa6-8d8b42ef2b9b#gs.xio3bp } {{\texttt{\textcolor{blue}{\bfseries UpGrad}}}}\\
+     
+%        \item[$\bullet$] \textbf{Problem Solving (Intermediate) Certificate} \hfill\href{ https://www.hackerrank.com/certificates/03c081f5b1bf } {{\texttt{\textcolor{blue}{\bfseries HackerRank}}}}\\
+       
+%        \item[$\bullet$] \textbf{Python Programming Certificate} \hfill\href{ https://www.hackerrank.com/certificates/2dbf3dbfb685 } {{\texttt{\textcolor{blue}{\bfseries HackerRank}}}}\\
+%      \item[$\bullet$] \textbf{AWS Data Engineer Associate Certificate} \hfill\href{ https://www.credly.com/badges/fda549b3-9854-4abf-85e8-f44efa122e6a/linked_in_profile} {{\texttt{\textcolor{blue}{\bfseries AWS}}}}\\
+
+%       \item[$\bullet$] \textbf{Microsoft AZ-900} \hfill\href{ https://learn.microsoft.com/en-us/users/rohankumar-1892/credentials/c9ccc72fddb13c30?ref=https%3A%2F%2Fwww.linkedin.com%2F } {{\texttt{\textcolor{blue}{\bfseries Microsoft}}}}\\
+
+%       \item[$\bullet$] \textbf{Microsoft AI-900} \hfill\href{ https://learn.microsoft.com/en-us/users/rohankumarin-0718/credentials/519ebcbf59f23ee3?ref=https%3A%2F%2Fwww.linkedin.com%2F } {{\texttt{\textcolor{blue}{\bfseries Microsoft}}}}\\
+
+%    \item[$\bullet$] \textbf{Sql  query Certificate } \hfill\href{ https://www.linkedin.com/in/rohan-softwaredev/overlay/1739689201535/single-media-viewer/?profileId=ACoAADjOkY0BxVpJGo_Il2IZiMmxzPkID_YLZjk} {{\texttt{\textcolor{blue}{\bfseries HackerRank}}}}\\
+%        % \item[$\bullet$] \textbf{Python Programming Certificate)} \hfill\href{ https://www.hackerrank.com/certificates/2dbf3dbfb685 } {{\texttt{\textcolor{blue}{\bfseries HackerRank}}}}\\
+   
+%  \end{itemize}
+%  \vspace{-30pt}
+   
+% \resumeSubHeadingListEnd
+% \vspace{-5mm}
+
+% %-------------------------------------------
+% \end{document}
+
+
+
+% \documentclass[a4paper,11pt]{article}
+% \usepackage{latexsym}
+% \usepackage{xcolor}
+% \usepackage{float}
+% \usepackage{ragged2e}
+% \usepackage[empty]{fullpage}
+% \usepackage{wrapfig}
+% \usepackage{lipsum}
+% \usepackage{tabularx}
+% \usepackage{titlesec}
+% \usepackage{geometry}
+% \usepackage{marvosym}
+% \usepackage{verbatim}
+% \usepackage{enumitem}
+% \usepackage[hidelinks]{hyperref}
+% \usepackage{fancyhdr}
+% \usepackage{fontawesome5}
+% \usepackage{multicol}
+% \usepackage{graphicx}
+% \usepackage{cfr-lm}
+% \usepackage[T1]{fontenc}
+% \setlength{\multicolsep}{0pt}
+% \pagestyle{fancy}
+% \fancyhf{}
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+% \geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+% \usepackage[most]{tcolorbox}
+% \tcbset{
+% frame code={}
+% center title,
+% left=0pt,
+% right=0pt,
+% top=0pt,
+% bottom=0pt,
+% colback=gray!20,
+% colframe=white,
+% width=\dimexpr\textwidth\relax,
+% enlarge left by=-2mm,
+% boxsep=4pt,
+% arc=0pt,outer arc=0pt,
+% }
+
+% \urlstyle{same}
+% \raggedright
+% \setlength{\tabcolsep}{0in}
+
+% \titleformat{\section}{
+%   \vspace{-4pt}\scshape\raggedright\large
+% }{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% \newcommand{\resumeItem}[2]{
+%   \item{
+%     \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
+%   }
+% }
+
+% \newcommand{\resumePOR}[3]{
+% \vspace{0.5mm}\item
+%     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%         \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}}
+%     \end{tabular*}
+%     \vspace{-2mm}
+% }
+
+% \newcommand{\resumeSubheading}[4]{
+% \vspace{0.5mm}\item
+%     \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%         \textbf{#1} & \textit{\footnotesize{#4}} \\
+%         \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+%     \end{tabular*}
+%     \vspace{-2.4mm}
+% }
+
+% \newcommand{\resumeProject}[4]{
+% \vspace{0.5mm}\item
+%     \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%         \textbf{#1} & \textit{\footnotesize{#3}} \\
+%         \footnotesize{\textit{#2}} & \footnotesize{#4}
+%     \end{tabular*}
+%     \vspace{-2.4mm}
+% }
+
+% \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+% % bullet for heading-level items
+% \renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+% % en-dash for description-level items
+% \renewcommand{\labelitemii}{--}
+
+% \newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+% \newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+% \newcolumntype{C}{>{\centering\arraybackslash}X}%
+
+% \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm]}
+% \newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+
+% \newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+% \newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+
+% \newcommand{\resumeItemListStart}{%
+%   \begin{justify}%
+%   \begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep, labelsep=1.5mm, itemsep=0mm,
+%                   label=\textendash]\small%
+% }
+% \newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+
+% \newcommand{\cvsection}[1]{%
+% \vspace{2mm}
+% \begin{tcolorbox}
+%     \textbf{\large #1}
+% \end{tcolorbox}
+%     \vspace{-4mm}
+% }
+
+% \newcommand{\name}{Rohan Kumar}
+% \newcommand{\phone}{6207013849}
+% \newcommand{\emailb}{rohandbg2019.rk@gmail.com}
+
+% \begin{document}
+% \fontfamily{cmr}\selectfont
+
+% %----------HEADING-----------------
+% \begin{center}
+%     {\Huge \textbf{\name}} \\
+%     \vspace{2mm}
+%     \small
+%     \href{tel:+916207013849}{\faPhone\ +91-\phone} \enspace
+%     \href{mailto:\emailb}{\faEnvelope\ \emailb} \enspace
+%     % {\faMapMarker\ Pune, Maharashtra} \enspace
+%     \href{https://github.com/cor1234}{\faGithub\ cor1234} \enspace
+%     \href{https://www.linkedin.com/in/rohan-kumar-465218227/}{\faLinkedin\ Rohan Kumar} \enspace
+%     % \href{https://my-portfolio-six-sooty-24.vercel.app/}{\faGlobe\ Portfolio}
+% \end{center}
+% \vspace{-7mm}
+
+% %-----------SUMMARY-----------
+% \section{\textbf{Summary}}
+% \vspace{0.5mm}
+% \small{Software engineer with experience building scalable ETL/ELT pipelines, cloud data platforms, and AI-powered solutions. Proficient in Python, PySpark, SQL, Snowflake, AWS, and Azure, with expertise in distributed systems, data warehousing, batch/stream processing, and GenAI/Agentic AI. Adept at solving complex data challenges in fast-paced, deadline-driven environments.}
+% \vspace{-3mm}
+
+% %-----------EDUCATION-----------
+% \section{\textbf{Education}}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {National Institute of Technology, Kurukshetra}{CGPA: \textbf{8.37} (till 8th Sem)}
+%       {Bachelor of Technology in Electronics and Communication Engineering}{2020--2024}
+%   \resumeSubHeadingListEnd
+% \vspace{-7mm}
+
+% % %-----Experience---------------
+% % \section{\textbf{Experience}}
+% % \vspace{-1mm}
+% %   \resumeSubHeadingListStart
+% %     \resumeProject
+% %       {PwC India : Associate}{}{Jan 2026 -- Present}{}
+% %     \vspace{-10pt}
+% %     \resumeItemListStart
+% %       % //\item {}
+% %       \item {Developed and deployed a full-stack AI chatbot platform using React.js, Node.js, MongoDB/Cosmos DB, FastAPI, and Azure OpenAI, supporting RAG, multi-agent workflows, document summarization, and translation with telemetry-driven monitoring.}
+% %       \item {Integrated Azure AI Search with domain filtering and semantic search to enable retrieval-augmented generation, and automated pipeline triggers via Azure Functions to improve reliability and eliminate manual intervention.}
+% %       \item {Engineered a multi-agent, retrieval-augmented-workflow with real time SSE progress streaming, confidence scoring and report validation/repair to support reliable incident-response simulation.}
+% %       \item {{\bfseries Tools \& Technologies:} Python, Azure AI Services,Azure Devops, FastAPI, LangChain, LangGraph,Kubernetes, Docker}
+% %     \resumeItemListEnd
+% %   \resumeSubHeadingListEnd
+
+% %-----Experience---------------
+% \section{\textbf{Experience}}
+% \vspace{-1mm}
+
+% \resumeSubHeadingListStart
+% \resumeProject
+% {PwC India : Associate}{}{Jan 2026 -- Present}{}
+% \vspace{-10pt}
+% \resumeItemListStart
+% \item {Developed and deployed a full-stack AI chatbot platform using React.js, Node.js, MongoDB/Cosmos DB, FastAPI, and Azure OpenAI, supporting RAG, multi-agent workflows, document summarization, and translation with telemetry-driven monitoring.}
+% \item {Integrated Azure AI Search with domain filtering and semantic search to enable retrieval-augmented generation, and automated pipeline triggers via Azure Functions to improve reliability and eliminate manual intervention.}
+% \item {Engineered a multi-agent retrieval-augmented workflow with real-time SSE progress streaming, confidence scoring, and report validation to support reliable incident-response simulation.}
+% \item {{\bfseries Tools \& Technologies:} Python, Azure AI Services, Azure OpenAI, Azure AI Search, Azure DevOps, FastAPI, LangChain, LangGraph, Kubernetes, Docker}
+% \resumeItemListEnd
+% \resumeSubHeadingListEnd
+
+% \vspace{-6mm}
+
+% \resumeSubHeadingListStart
+% \resumeProject
+% {Capgemini : Senior Analyst}{}{Nov 2024 -- Jan 2026}{}
+% \vspace{-10pt}
+% \resumeItemListStart
+
+% \item{Designed and developed Spring Boot REST APIs for Project and Sub-project Assignment with Role-Based Access Control (RBAC), enabling secure project access using PostgreSQL and a layered architecture (Controller, DTO, Service, Repository).}
+
+% \item{Built scalable backend services to replace hard-coded FireTV device identifiers with capability-based runtime detection, automating FireTV onboarding and reducing onboarding time from nearly 6 months to about 5 days.}
+
+% \item{Migrated backend microservices from JDK 8 to JDK 17/21, improving application performance, maintainability, security, and compatibility with modern Java features while preserving backward compatibility.}
+
+% \item{Developed RESTful APIs using Spring Boot, implemented unit and integration tests with JUnit and Mockito, participated in code reviews, supported CI/CD deployments, and monitored production services using AWS CloudWatch.}
+
+% \item{Designed and optimized analytics-ready dimension, fact, and domain tables in Snowflake, improving query performance and supporting enterprise reporting workloads.}
+
+% \item{Developed ETL pipelines using Azure Data Factory, Azure Blob Storage, Azure Data Lake, PySpark, and PostgreSQL to automate data ingestion and improve operational reliability.}
+
+% \item{Investigated production issues, performed root cause analysis, optimized ETL workflows, and implemented automation to improve pipeline stability and reduce recurring failures.}
+
+% \item{{\bfseries Tools \& Technologies:} Java, Spring Boot, Python, SQL, PostgreSQL, Apache Spark, PySpark, Snowflake, Azure Data Factory, Azure Blob Storage, Azure Data Lake, AWS CloudWatch, JUnit, Mockito, REST APIs, Git, Docker}
+
+% \resumeItemListEnd
+% \resumeSubHeadingListEnd
+
+% % \vspace{-8mm}
+% % \vspace{-6mm}
+% %   \resumeSubHeadingListStart
+% %     \resumeProject
+% %       {Capgemini : Senior Analyst}{}{Nov 2024 -- Jan 2026}{}
+% %     \vspace{-10pt}
+% %     \resumeItemListStart
+% %       \item {Designed and deployed dimension, fact, and domain table schemas in Snowflake, optimizing query performance and aligning the data platform architecture with business and high-availability requirements.}
+% %       % \item {Built a chatbot using AWS Bedrock and LangChain to auto-generate code and test cases from CSV inputs, and integrated it with CI/CD workflows to improve developer productivity.}
+% %       \item {Automated data segregation pipelines from Azure Blob Storage to Azure Data Lake via Azure Data Factory, enabling structured inter-layer data flow with lifecycle management and operational reliability.}
+% %       \item {Investigated and resolved production incidents in Informatica IDMC by performing root cause analysis on mapping errors and bottlenecks, then implemented corrective automation to stabilize pipelines and prevent recurrence.}
+% %       \item {{\bfseries Tools \& Technologies:} Python, PySpark, Snowflake, AWS Glue, AWS Bedrock, Azure Data Factory, PostgreSQL}
+% %     \resumeItemListEnd
+% %   \resumeSubHeadingListEnd
+
+%  \vspace{-9mm}
+
+% % %-----------PROJECTS-----------------
+% % \section{\textbf{Personal Projects}}
+% % \vspace{-1mm}
+% %   \resumeSubHeadingListStart
+% %     \resumeProject
+% %       {\href{https://github.com/EmrNITK/GestureControl}{\bfseries Gesture Control}}{}{}{}
+% %     \vspace{-10pt}
+% %     \resumeItemListStart
+% %       \item {Developed a real-time gesture-based control system that uses hand movements to manage multimedia playback and volume, built on a computer vision pipeline for low-latency and reliable operation.}
+% %       \item {{\bfseries Tech Stack:} Python, PyAutoGUI, MediaPipe, OpenCV,PyTorch}
+% %     \resumeItemListEnd
+% %     \vspace{-1mm}
+% %     \resumeProject
+% %       {\href{https://github.com/cor1234/Shopping_Cart}{\bfseries Shopping Cart}}{}{}{}
+% %     \vspace{-10pt}
+% %     \resumeItemListStart
+% %       \item {Built a full-stack e-commerce application with user authentication, product management, payment processing, and an admin dashboard, deployed using DevOps practices for reliability and maintainability.}
+% %       \item {{\bfseries Tech Stack:} Java, Spring Boot, Thymeleaf, HTML, CSS, MySQL, Swagger}
+% %     \resumeItemListEnd
+% %   \resumeSubHeadingListEnd
+% % \vspace{-8mm}
+
+% %-----------Technical Skills-----------------
+% % \section{\textbf{Technical Skills}}
+% % \vspace{1mm}
+% %  \begin{itemize}[leftmargin=0.05in, label={}]
+% %     \small{\item{
+% %      \textbf{Languages}{: C, C++, Python, SQL, Java,Shell} \\[1pt]
+% %      \textbf{Frontend}{: HTML, CSS, JavaScript, React.js, MERN Stack} \\[1pt]
+% %      \textbf{Libraries \& Frameworks}{: OpenCV, PySpark, Pandas, FastAPI, LangChain, LangGraph, Microsoft Agentic Framework} \\[1pt]
+% %      \textbf{Cloud \& Data Platforms}{: Azure (AI Search, Functions, Cosmos DB, Data Factory), AWS, Snowflake,Databricks } \\[1pt]
+% %      \textbf{Databases}{: MongoDB, MySQL, Azure Cosmos DB} \\[1pt]
+% %      % \textbf{DevOps \& Observability}{: Git, CI/CD, Azure DevOps, LangSmith, Test Automation, Telemetry} \\[1pt]
+% %      \textbf{Soft Skills}{: Problem-solving, Teamwork, Leadership, System Design (HLD/LLD)} \\[1pt]
+% %      \textbf{Coursework}{: OOPs, OS, DBMS, Data Structures \& Algorithms, Generative AI, Power BI} \\
+% %     }}
+% %  \end{itemize}
+% % \vspace{-6mm}
+
+
+% %-----------Technical Skills-----------------
+% % \section{\textbf{Technical Skills}}
+% % \vspace{1mm}
+% %  \begin{itemize}[leftmargin=0.05in, label={}]
+% %     \small{\item{
+% %      \textbf{Languages}{: C, C++, Python, SQL, Java, Shell Scripting} \\[0pt]
+% %      \textbf{GenAI, LLM \& Agentic AI}{: Large Language Models (LLM), LangChain, LangGraph, LangSmith, MCP, RAG, Azure OpenAI, AWS Bedrock, Microsoft Agentic Framework, Multi-Agent Systems} \\[0pt]
+% %      \textbf{Distributed Systems \& Big Data}{: PySpark, Apache Spark, AWS Glue, Hive, HDFS, Kafka, NiFi, Distributed Systems Design, Batch \& Stream Processing, Docker} \\[0pt]
+% %      \textbf{Cloud Platforms}{: Azure (AI Search, Functions, Cosmos DB, Data Factory, Blob Storage), AWS, Databricks} \\[0pt]
+% %      \textbf{Data Warehousing \& ETL}{: Snowflake, Azure Data Factory, Informatica IDMC, ETL/ELT Design, Data Modeling, Data Profiling, PostgreSQL, MySQL, MongoDB} \\[0pt]
+% %      \textbf{DevOps \& Observability}{: Git, CI/CD, Azure DevOps, Agile Development, FastAPI, Telemetry} \\[0pt]
+% %      \textbf{Frontend \& API}{: HTML, CSS, JavaScript, React.js, MERN Stack, REST APIs} \\[0pt]
+% %      \textbf{Soft Skills}{: Problem-solving, Teamwork, Leadership, System Design (HLD/LLD), Cross-team Communication} \\[0pt]
+% %      \textbf{Coursework}{: OOPs, OS, DBMS, DSA, Distributed Systems, Generative AI, Linux Command} \\
+% %     }}
+% %  \end{itemize}
+% % \vspace{-9mm}
+% \section{\textbf{Technical Skills}}
+% \vspace{1mm}
+% \begin{itemize}[leftmargin=0.05in, label={}]
+% \small{\item{
+
+% \textbf{Programming Languages}{: C, C++, Python, Java, SQL, Shell Scripting} \\[0pt]
+
+% \textbf{Core Computer Science}{: Object-Oriented Programming (OOP), Data Structures \& Algorithms, Operating Systems, DBMS, Computer Networks, Linux} \\[0pt]
+
+% \textbf{Embedded \& Electronics}{: Digital Electronics, Microprocessors, Microcontrollers, Computer Architecture, Digital Logic Design, Electronic Circuits} \\[0pt]
+
+% \textbf{Scripting \& Development Tools}{: Shell Scripting, Git, Docker, Linux Environment, VS Code} \\[0pt]
+
+% \textbf{Software Development}{: REST APIs, FastAPI, React.js, HTML, CSS, JavaScript} \\[0pt]
+
+% \textbf{Cloud \& Data Technologies}{: Azure, AWS, Snowflake, PySpark, Apache Spark, PostgreSQL} \\[0pt]
+
+% \textbf{Soft Skills}{: Analytical Problem Solving, Team Collaboration, Communication, Leadership} \\[0pt]
+
+% \textbf{Coursework}{: Digital Electronics, Computer Organization \& Architecture, Microprocessors, Signals \& Systems, OOP, OS, DBMS, Computer Networks}
+
+% }}
+% \end{itemize}
+% \vspace{-9mm}
+% %-----------Coding Profiles-----------------
+% \vspace{2mm}
+% \section{\textbf{Coding Profiles \&\& Portfolio}}
+% \vspace{1mm}
+% \begin{itemize}[itemsep=0em, label={}]
+%   \item \quad
+%   \textbullet\ \href{https://leetcode.com/rohna1234/}{\bfseries LeetCode} \quad\quad
+%   \textbullet\ \href{https://codeforces.com/profile/rohna2019.rk}{\bfseries Codeforces} \quad\quad
+%   \textbullet\ \href{https://www.hackerrank.com/rohan2019_rk?hr_r=1}{\bfseries HackerRank} \quad\quad
+%   \textbullet\ \href{https://auth.geeksforgeeks.org/user/rohan2019rk/practice}{\bfseries GeeksforGeeks} \quad\quad
+%   \textbullet\ \href{https://my-portfolio-six-sooty-24.vercel.app/}{\bfseries Portfolio}
+% \end{itemize}
+% \vspace{-6mm}
+
+% % \section{\textbf{Technical Skills}}
+% % \vspace{1mm}
+% %  \begin{itemize}[leftmargin=0.05in, label={}]
+% %     \small{\item{
+% %      \textbf{Languages}{: C, C++, Python, SQL, Java, Shell Scripting} \\[0pt]
+% %      \textbf{Big Data \& Processing}{: PySpark, Apache Spark, AWS Glue, Hive, HDFS, Kafka, NiFi, Batch \& Stream Processing} \\[0pt]
+% %      \textbf{Data Warehousing \& ETL}{: Snowflake, Azure Data Factory, Informatica IDMC, ETL/ELT Design, Data Modeling, Data Profiling, PostgreSQL, MySQL, MongoDB} \\[0pt]
+% %      \textbf{Cloud Platforms}{: AWS (Glue, Bedrock, S3), Azure (AI Search, Functions, Cosmos DB, Data Factory, Blob Storage), Databricks} \\[0pt]
+% %      \textbf{GenAI \& Agentic AI}{: LangChain, LangGraph, LangSmith, MCP, RAG, Azure OpenAI, AWS Bedrock, Microsoft Agentic Framework} \\[0pt]
+% %      \textbf{DevOps \& Observability}{: Git, CI/CD, Azure DevOps,  Shell Scripting, FastAPI} \\[0pt]
+% %      \textbf{Frontend \& API}{: HTML, CSS, JavaScript, React.js, MERN Stack, REST APIs} \\[0pt]
+% %      \textbf{Soft Skills}{: Problem-solving, Teamwork, Leadership, System Design (HLD/LLD), Communication} \\[0pt]
+% %      \textbf{Coursework}{: OOPs, OS, DBMS, DSA, Distributed Systems, Generative AI} \\
+% %     }}
+% %  \end{itemize}
+%  \vspace{3mm}
+% %-----------Achievements-----------------
+% \section{\textbf{Achievements \& Certifications}}
+% \vspace{3mm}
+% \begin{itemize}[itemsep=0.5mm, label=$\vcenter{\hbox{\tiny$\bullet$}}$, leftmargin=*]
+%     \item \textbf{AWS Certified Data Engineer -- Associate}
+%           \hfill\href{https://www.credly.com/badges/fda549b3-9854-4abf-85e8-f44efa122e6a/linked_in_profile}
+%           {{\texttt{\textcolor{blue}{\bfseries AWS}}}}
+%   \vspace{-1.5mm}
+%     \item \textbf{Microsoft Certified: Azure Fundamentals (AZ-900)}
+%           \hfill\href{https://learn.microsoft.com/en-us/users/rohankumar-1892/credentials/c9ccc72fddb13c30}
+%           {{\texttt{\textcolor{blue}{\bfseries Microsoft}}}}
+%   \vspace{-1.5mm}
+%     \item \textbf{Microsoft Certified: Azure AI Fundamentals (AI-900)}
+%           \hfill\href{https://learn.microsoft.com/en-us/users/rohankumarin-0718/credentials/519ebcbf59f23ee3}
+%           {{\texttt{\textcolor{blue}{\bfseries Microsoft}}}}
+%   \vspace{-1.5mm}
+%     \item \textbf{HackerRank Problem Solving (Intermediate) Certificate}
+%           \hfill\href{https://www.hackerrank.com/certificates/03c081f5b1bf}
+%           {{\texttt{\textcolor{blue}{\bfseries HackerRank}}}}
+%   \vspace{-1.5mm}
+%     % \item \textbf{HackerRank Python Programming Certificate}
+%     %       \hfill\href{https://www.hackerrank.com/certificates/2dbf3dbfb685}
+%     %       {{\texttt{\textcolor{blue}{\bfseries HackerRank}}}}
+%   % \vspace{-2.5mm}
+%     \item \textbf{HackerRank SQL Query Certificate}
+%           \hfill\href{https://www.linkedin.com/in/rohan-softwaredev/overlay/1739689201535/single-media-viewer/}
+%           {{\texttt{\textcolor{blue}{\bfseries HackerRank}}}}
+%   % \vspace{-2.5mm}
+%   %   \item \textbf{React.js -- Basics to Advanced (UpGrad)}
+%   %         \hfill\href{https://www.credential.net/d2dbaa9a-9201-430f-aaa6-8d8b42ef2b9b#gs.xio3bp}
+%   %         {{\texttt{\textcolor{blue}{\bfseries UpGrad}}}}
+%   \vspace{-1.5mm}
+%     \item \textbf{Ranked 106th in Codhathon 2022, a national inter-NIT competitive programming contest.}
+%           \hfill\href{https://www.linkedin.com/in/rohan-kumar-465218227/overlay/1635488065449/single-media-viewer/}
+%           {{\texttt{\textcolor{blue}{\bfseries NIT Allahabad}}}}
+% \end{itemize}
+% \vspace{-3mm}
+% %-------------------------------------------
+% \end{document}
+\documentclass[a4paper,11.5pt]{article}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.2cm, top=1.0cm, right=1.2cm, bottom=1.0cm}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+\linespread{1.08}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\bfseries\raggedright\large\uppercase
+}{}{0em}{}[\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{2mm}
+  \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \textbf{#4} \\
+    \textit{\small #3} & \textit{\small #2} \\
+  \end{tabular*}
+  \vspace{-4pt}
+}
+
+\newcommand{\resumeExpHeading}[3]{
+  \vspace{3mm}
+  \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \textit{\small #3} \\
+    \textit{\small #2} & \\
+  \end{tabular*}
+  \vspace{-4pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{2mm}
+  \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \small#1 & \textit{\small #2} \\
+  \end{tabular*}
+  \vspace{-4pt}
+}
+
+\newcommand{\resumeItemListStart}{
+  \begin{itemize}[leftmargin=2ex, noitemsep, label=\textbullet]\small
+}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{1mm}}
+
+% ─── DOCUMENT ───────────────────────────────────────────────────────────────
+\begin{document}
+\fontfamily{cmr}\selectfont
+
+% ─── HEADER ─────────────────────────────────────────────────────────────────
+\begin{center}
+  {\Huge \textbf{ROHAN KUMAR}} \\[2mm]
+   \small
+  % Software Engineer \quad|\quad
+  \href{mailto:rohandbg2019.rk@gmail.com}{rohandbg2019.rk@gmail.com} \quad|
+  +91-6207013849 \quad|\quad
+  \href{https://www.linkedin.com/in/rohan-kumar-465218227/}{linkedin.com/in/rohan-kumar-465218227} \quad|\quad
+  \href{https://github.com/cor1234}{github.com/cor1234}
+\end{center}
+\vspace{-4mm}
+
+% ─── PROFESSIONAL SUMMARY ───────────────────────────────────────────────────
+\section{Professional Summary}
+\vspace{2mm}
+\medium{
+Software Engineer with almost 2 years of professional experience building scalable ETL/ELT pipelines,
+cloud data platforms, AI-powered chatbot systems, and enterprise microservices. Proven ability to reduce
+onboarding time from \textbf{6 months to 5 days}, design multi-agent RAG workflows, and optimize
+Snowflake data models supporting enterprise reporting. Proficient in Python, Java, PySpark, SQL, Snowflake,
+Azure, and AWS. Strong background in distributed systems, data warehousing, batch/stream processing, REST
+API design, and Generative/Agentic AI in fast-paced, deadline-driven production environments.
+}
+\vspace{-1mm}
+
+% ─── EDUCATION ──────────────────────────────────────────────────────────────
+\section{Education}
+\vspace{2mm}
+\resumeSubheading
+  {National Institute of Technology, Kurukshetra}{CGPA: \textbf{8.37} (till 8\textsuperscript{th} Sem)}
+  {Bachelor of Technology in Electronics and Communication Engineering}{2020\,--\,2024}
+\vspace{1mm}
+\resumeItemListStart
+  % \resumeItem{Relevant Coursework: Digital Electronics, Computer Organization \& Architecture, Microprocessors, Signals \& Systems, Object-Oriented Programming, Operating Systems, DBMS, Computer Networks}
+\resumeItemListEnd
+
+% ─── PROFESSIONAL EXPERIENCE ────────────────────────────────────────────────
+\section{Professional Experience}
+
+% PwC
+\resumeExpHeading
+  {PwC India \textemdash{} Associate}{Pune, India}{Jan 2026\,--\,Present}
+\resumeItemListStart
+  \resumeItem{Developed and deployed a full-stack AI chatbot platform using \textbf{React.js, Node.js, MongoDB/Cosmos DB, FastAPI, and Azure OpenAI}, supporting CRAG pipelines, multi-agent workflows, document summarization, and translation with telemetry-driven monitoring.}
+  \resumeItem{Integrated \textbf{Azure AI Search} with domain filtering and semantic search to enable retrieval-augmented generation; automated pipeline triggers via Azure Functions, improving reliability and eliminating manual intervention.}
+  \resumeItem{Engineered a \textbf{multi-agent retrieval-augmented workflow} with real-time SSE progress streaming, confidence scoring, and report validation/repair to support reliable incident-response simulation.}
+  \resumeItem{Architected a multi-agent AI Diagnostic system using deepagents, Azure Services,Neo4j) with adversarial validation and explainable root-cause reporting.}
+   \resumeItem{Implemented TopoEvo-inspired reasoning , adversarial validation and structured decision pipelines to improve diagnostic accuracy and reduce hallucinations.}
+   \resumeItem{Built knowledge graphs (Neo4j) , vector search and MCP-based tool integration frameworks using Neo4j, Azure AI Search , Cosmos DB and Azure services to power enterprise-scale AI agents.}
+   \resumeItem{Containerized the sre with Docker, published images to Azure Container Registry(ACR) and deployed to Azure Container App with managed identity.}
+  \resumeItem{\textbf{Tools \& Technologies:} Python, Azure AI Services, Azure OpenAI, Azure AI Search, Azure DevOps, FastAPI, LangChain, LangGraph, Kubernetes, Docker , Neo4j}
+  
+\resumeItemListEnd
+\vspace{-2mm}
+% Capgemini/v
+\resumeExpHeading
+  {Capgemini \textemdash{} Senior Analyst}{India}{Nov 2024\,--\,Jan 2026}
+\resumeItemListStart
+  \resumeItem{Designed and developed \textbf{Spring Boot REST APIs} for Project and Sub-project Assignment with Role-Based Access Control (RBAC), enabling secure project access using PostgreSQL and a layered architecture (Controller, DTO, Service, Repository).}
+  \resumeItem{Built scalable backend services to replace hard-coded FireTV device identifiers with capability-based runtime detection, \textbf{automating FireTV onboarding and reducing onboarding time from \textasciitilde{}6 months to \textasciitilde{}5 days}.}
+  \resumeItem{Migrated backend microservices from \textbf{JDK 8 to JDK 17/21}, improving performance, maintainability, security, and compatibility while preserving backward compatibility.}
+  \resumeItem{Developed RESTful APIs using Spring Boot, implemented unit and integration tests with \textbf{JUnit and Mockito}, participated in code reviews, supported CI/CD deployments, and monitored production services using \textbf{AWS CloudWatch}.}
+  \resumeItem{Designed and deployed \textbf{dimension, fact, and domain table schemas in Snowflake}, optimizing query performance and aligning the data platform architecture with business and high-availability requirements.}
+  \resumeItem{Developed \textbf{ETL pipelines} using Azure Data Factory, Azure Blob Storage, Azure Data Lake, PySpark, and PostgreSQL to automate data segregation, ingestion, and lifecycle management, improving operational reliability.}
+  \resumeItem{Investigated and resolved production incidents in \textbf{Informatica IDMC} by performing root cause analysis on mapping errors and bottlenecks, then implemented corrective automation to stabilize pipelines and reduce recurring failures.}
+  \resumeItem{\textbf{Tools \& Technologies:} Java, Spring Boot, Python, SQL, PostgreSQL, Apache Spark, PySpark, Snowflake, Azure Data Factory, Azure Blob Storage, Azure Data Lake, AWS Glue, AWS Bedrock, AWS CloudWatch, JUnit, Mockito, REST APIs, Git, Docker}
+\resumeItemListEnd
+
+% ─── PERSONAL PROJECTS ──────────────────────────────────────────────────────
+\section{Personal Projects}
+
+\resumeProjectHeading
+  {\textbf{Gesture Control} $|$ \emph{Python, PyAutoGUI, MediaPipe, OpenCV, PyTorch}}{}
+\resumeItemListStart
+  \resumeItem{Developed a real-time gesture-based control system that uses hand movements to manage multimedia playback and volume, built on a computer vision pipeline for low-latency and reliable operation.}
+  \resumeItem{Implemented hand-landmark tracking and gesture classification to translate movements into system-level media commands with minimal input lag.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+  {\textbf{Shopping Cart} $|$ \emph{Java, Spring Boot, Thymeleaf, HTML, CSS, MySQL, Swagger}}{}
+\resumeItemListStart
+  \resumeItem{Built a full-stack e-commerce application with user authentication, product management, payment processing, and an admin dashboard, deployed using DevOps practices for reliability and maintainability.}
+  \resumeItem{Documented and tested REST endpoints using Swagger, and structured the application with a layered architecture for maintainability and scalability.}
+\resumeItemListEnd
+
+% ─── TECHNICAL SKILLS ───────────────────────────────────────────────────────
+\section{Technical Skills}
+\vspace{2mm}
+\begin{itemize}[leftmargin=0.05in, label={}, noitemsep]
+\small{
+\item \textbf{Programming Languages:} Python, Java, C, C++, SQL, Shell Scripting
+\item \textbf{Core Computer Science:} System Design (HLD, LLD), Data Structures \& Algorithms, Object-Oriented Programming (OOP), Operating Systems, DBMS, Computer Networks, Linux
+\item \textbf{Frameworks \& APIs:} Spring Boot, FastAPI, React.js, Node.js, REST APIs, HTML, CSS, JavaScript, Thymeleaf, Swagger
+\item \textbf{Databases \& Caching:} PostgreSQL, MySQL, MongoDB, Azure Cosmos DB, Snowflake
+\item \textbf{Cloud \& DevOps:} Azure (AI Search, Functions, Cosmos DB, Data Factory, Blob Storage, Data Lake, OpenAI), AWS (CloudWatch, Bedrock, Glue), Docker, Kubernetes, Git, CI/CD, Azure DevOps
+\item \textbf{Big Data \& ETL:} PySpark, Apache Spark, Azure Data Factory, Informatica IDMC, ETL/ELT Design, Data Modeling, Data Profiling, Batch \& Stream Processing
+\item \textbf{GenAI \& Agentic AI:} LangChain, LangGraph, RAG, Azure OpenAI, Multi-Agent Systems, Microsoft Agentic Framework
+\item \textbf{Monitoring \& Observability:} AWS CloudWatch, Telemetry, LangSmith
+% \item \textbf{Embedded \& Electronics:} Digital Electronics, Microprocessors, Microcontrollers, Computer Architecture, Digital Logic Design, Electronic Circuits
+\item \textbf{Tools:} Git, Docker, VS Code, Linux Environment, Postman
+\item \textbf{Soft Skills:} Analytical Problem Solving, Team Collaboration, Leadership, Cross-functional Communication
+}
+\end{itemize}
+\vspace{-2mm}
+
+% ─── CODING PROFILES ────────────────────────────────────────────────────────
+\section{Coding Profiles \& Portfolio}
+\vspace{2mm}
+\medium{\quad \quad \quad \quad \quad
+\textbullet\ \href{https://leetcode.com/rohna1234/}{\textbf{LeetCode}} \quad \quad
+\textbullet\ \href{https://codeforces.com/profile/rohna2019.rk}{\textbf{Codeforces}} \quad \quad
+\textbullet\ \href{https://www.hackerrank.com/rohan2019_rk}{\textbf{HackerRank}} \quad \quad
+\textbullet\ \href{https://auth.geeksforgeeks.org/user/rohan2019rk/practice}{\textbf{GeeksforGeeks}} \quad \quad
+\textbullet\ \href{https://my-portfolio-six-sooty-24.vercel.app/}{\textbf{Portfolio}}
+}
+\vspace{2mm}
+
+% ─── CORE COMPETENCIES ──────────────────────────────────────────────────────
+\section{Core Competencies}
+\vspace{2mm}
+\begin{itemize}[leftmargin=2ex, noitemsep, label=\textbullet]\small
+  \item \textbf{Backend Development:} Microservices Architecture, REST API Design, Spring Boot, Database Optimization, Performance Tuning, RBAC
+  \item \textbf{Data \& Cloud Engineering:} ETL/ELT Pipeline Design, Data Warehousing (Snowflake), Azure \& AWS Services, PySpark, Distributed Systems
+  \item \textbf{AI \& GenAI:} RAG Pipelines, Multi-Agent Workflows, LLM Integration, Azure OpenAI, LangChain/LangGraph
+  \item \textbf{DevOps \& Observability:} CI/CD, Docker, Kubernetes, Azure DevOps, CloudWatch, Git
+  \item \textbf{Problem Solving:} Complex System Design, Root Cause Analysis, Production Issue Resolution, Scalability Planning
+  \item \textbf{Leadership:} Code Reviews, Cross-functional Collaboration, Agile/Scrum, Technical Mentoring
+\end{itemize}
+\vspace{-2mm}
+
+% ─── KEY ACHIEVEMENTS ───────────────────────────────────────────────────────
+\section{Key Achievements}
+\vspace{2mm}
+\begin{itemize}[leftmargin=2ex, noitemsep, label=\textbullet]\small
+  \item \textbf{Operational Impact:} Reduced FireTV device onboarding from \textbf{\textasciitilde{}6 months to \textasciitilde{}5 days} through capability-based runtime detection — eliminating a major manual bottleneck.
+  \item \textbf{AI Innovation:} Engineered production-grade multi-agent RAG platform with SSE streaming, confidence scoring, and automated validation deployed at PwC.
+  \item \textbf{Cloud Migration:} Successfully migrated backend microservices from JDK 8 to JDK 17/21, improving security and performance while maintaining backward compatibility.
+  \item \textbf{Data Engineering:} Designed Snowflake dimension/fact/domain table schemas supporting enterprise reporting; built automated Azure ETL pipelines replacing manual ingestion.
+  \item \textbf{Academic Excellence:} \textbf{CGPA 8.37/10} at NIT Kurukshetra, reflecting consistent academic performance throughout the undergraduate program.
+\end{itemize}
+\vspace{-1mm}
+
+%-----------Achievements-----------------
+\section{\textbf{Achievements \& Certifications}}
+\vspace{3mm}
+\begin{itemize}[itemsep=0.5mm, label=$\vcenter{\hbox{\tiny$\bullet$}}$, leftmargin=*]
+    \item \textbf{AWS Certified Data Engineer -- Associate}
+          \hfill\href{https://www.credly.com/badges/fda549b3-9854-4abf-85e8-f44efa122e6a/linked_in_profile}
+          {{\texttt{\textcolor{blue}{\bfseries AWS}}}}
+  \vspace{-1.5mm}
+    \item \textbf{Microsoft Certified: Azure Fundamentals (AZ-900)}
+          \hfill\href{https://learn.microsoft.com/en-us/users/rohankumar-1892/credentials/c9ccc72fddb13c30}
+          {{\texttt{\textcolor{blue}{\bfseries Microsoft}}}}
+  \vspace{-1.5mm}
+    \item \textbf{Microsoft Certified: Azure AI Fundamentals (AI-900)}
+          \hfill\href{https://learn.microsoft.com/en-us/users/rohankumarin-0718/credentials/519ebcbf59f23ee3}
+          {{\texttt{\textcolor{blue}{\bfseries Microsoft}}}}
+  \vspace{-1.5mm}
+    \item \textbf{HackerRank Problem Solving (Intermediate) Certificate}
+          \hfill\href{https://www.hackerrank.com/certificates/03c081f5b1bf}
+          {{\texttt{\textcolor{blue}{\bfseries HackerRank}}}}
+  \vspace{-1.5mm}
+    \item \textbf{HackerRank SQL Query Certificate}
+          \hfill\href{https://www.linkedin.com/in/rohan-softwaredev/overlay/1739689201535/single-media-viewer/}
+          {{\texttt{\textcolor{blue}{\bfseries HackerRank}}}}
+  \vspace{-1.5mm}
+    \item \textbf{Ranked 106th in Codhathon 2022, Inter-NIT competitive programming contest.}
+          \hfill\href{https://www.linkedin.com/in/rohan-kumar-465218227/overlay/1635488065449/single-media-viewer/}
+          {{\texttt{\textcolor{blue}{\bfseries NIT Allahabad}}}}
+
+ \vspace{-1.5mm}
+ \item \textbf{Ranked 5 in Hackathon conducted by Microsoft and PWC}
+          \hfill\href{https://www.credly.com/badges/c4d37e17-b1c0-4b22-ae89-da0917d70286/linked_in?t=tiigua}
+          {{\texttt{\textcolor{blue}{\bfseries PWC }}}}
+\end{itemize}
+\vspace{-3mm}
+%-------------------------------------------
+
+\end{document}
+
+C:\Users\rohan\portfolio\Portfolio\src

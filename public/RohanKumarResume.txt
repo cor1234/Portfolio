@@ -1,0 +1,60 @@
+Rohan Kumar
+Software Engineer
+
+Professional Summary
+Software Engineer with almost 2 years of professional experience building scalable ETL/ELT pipelines, cloud data platforms, AI-powered chatbot systems, and enterprise microservices. Proven ability to reduce onboarding time from 6 months to 5 days, design multi-agent RAG workflows, and optimize Snowflake data models supporting enterprise reporting. Proficient in Python, Java, PySpark, SQL, Snowflake, Azure, and AWS. Strong background in distributed systems, data warehousing, batch/stream processing, REST API design, and Generative/Agentic AI in fast-paced, deadline-driven production environments.
+
+Education
+National Institute of Technology, Kurukshetra
+Bachelor of Technology in Electronics and Communication Engineering
+CGPA: 8.37
+2020 - 2024
+
+Professional Experience
+PwC India — Associate | Pune, India | Jan 2026 - Present
+- Built and deployed a full-stack AI chatbot platform using React.js, Node.js, MongoDB/Cosmos DB, FastAPI, and Azure OpenAI for CRAG workflows, multi-agent systems, document summarization, and translation with monitoring.
+- Integrated Azure AI Search with semantic ranking and domain-aware filtering for retrieval-augmented generation and automation using Azure Functions.
+- Designed AI-driven incident response workflows with real-time SSE streaming, confidence scoring, validation, and root-cause reporting.
+- Built knowledge graph, vector search, and MCP-based enterprise agent frameworks using Neo4j, Azure AI Search, Cosmos DB, and Azure services.
+- Deployed services using Docker, Azure Container Registry, and Azure Container Apps with managed identity.
+
+Capgemini — Senior Analyst | India | Nov 2024 - Jan 2026
+- Designed and built Spring Boot REST APIs with RBAC and PostgreSQL for project assignment workflows.
+- Automated FireTV onboarding using capability-based runtime detection, reducing onboarding time from ~6 months to ~5 days.
+- Migrated backend microservices from JDK 8 to JDK 17/21 and improved performance and security.
+- Built ETL and ELT pipelines with Azure Data Factory, Azure Blob Storage, Azure Data Lake, PySpark, and PostgreSQL.
+- Designed Snowflake dimension, fact, and domain table schemas for reporting and high availability.
+- Resolved production incidents in Informatica IDMC and improved pipeline stability.
+
+Technical Skills
+Programming Languages: Python, Java, C, C++, SQL, Shell Scripting
+Core Computer Science: System Design, Data Structures & Algorithms, OOP, Operating Systems, DBMS, Computer Networks, Linux
+Frameworks & APIs: Spring Boot, FastAPI, React.js, Node.js, REST APIs, HTML, CSS, JavaScript, Thymeleaf, Swagger
+Databases & Caching: PostgreSQL, MySQL, MongoDB, Azure Cosmos DB, Snowflake
+Cloud & DevOps: Azure, AWS, Docker, Kubernetes, Git, CI/CD, Azure DevOps
+Big Data & ETL: PySpark, Apache Spark, Azure Data Factory, Informatica IDMC, ETL/ELT Design, Data Modeling, Data Profiling, Batch & Stream Processing
+GenAI & Agentic AI: LangChain, LangGraph, RAG, Azure OpenAI, Multi-Agent Systems, Microsoft Agentic Framework, AutoGen, Copilot Studio, MCP
+Monitoring & Observability: AWS CloudWatch, Telemetry, LangSmith
+Tools: Git, Docker, VS Code, Linux Environment, Postman, Bash Scripting
+
+Core Competencies
+- Backend Development: Microservices Architecture, REST API Design, Spring Boot, Database Optimization, Performance Tuning, RBAC
+- Data & Cloud Engineering: ETL/ELT Pipeline Design, Data Warehousing (Snowflake), Azure & AWS Services, PySpark, Distributed Systems
+- AI & GenAI: RAG Pipelines, Multi-Agent Workflows, LLM Integration, Azure OpenAI, LangChain/LangGraph
+- DevOps & Observability: CI/CD, Docker, Kubernetes, Azure DevOps, CloudWatch, Git
+
+Achievements
+- Reduced FireTV onboarding time from ~6 months to ~5 days.
+- Built production-grade multi-agent RAG platform at PwC.
+- Migrated backend microservices from JDK 8 to JDK 17/21.
+- Designed Snowflake schemas and Azure ETL pipelines.
+- CGPA 8.37 at NIT Kurukshetra.
+
+Achievements & Certifications
+- AWS Certified Data Engineer – Associate
+- Microsoft Certified: Azure Fundamentals (AZ-900)
+- Microsoft Certified: Azure AI Fundamentals (AI-900)
+- HackerRank Problem Solving (Intermediate) Certificate
+- HackerRank SQL Query Certificate
+- Ranked 106th in Codhathon 2022, Inter-NIT competitive programming contest
+- Ranked 5 in Hackathon conducted by Microsoft and PwC

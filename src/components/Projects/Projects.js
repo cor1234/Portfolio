@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/sign.png";
+import doctor from "../../Assets/doctorappoitmentsystem.png";
+import shopping from "../../Assets/shoppingcart.png";
 import ngo from "../../Assets/Projects/snappy.png";
-// import suicide from "../../Assets/Projects/suicide.png";
 import sorting from "../../Assets/Projects/gesture.png";
+import collegeProjectImg from "../../Assets/Projects/editing.png";
 
 function Projects() {
   return (
@@ -18,19 +18,48 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are my projects.
+          Here are my projects, including my recent work and a college project.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={doctor}
+              isBlog={false}
+              title="Doctor Appointment System"
+              description="A web-based doctor appointment platform where patients and doctors can register, manage profiles, and book appointments, while admins oversee users and scheduling. Built with React.js, Node.js, MongoDB, and Cloudinary for secure profile and image management."
+              ghLink="https://github.com/cor1234?tab=repositories"
+              demoLink="https://github.com/cor1234/Hospital_Management_system"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shopping}
+              isBlog={false}
+              title="Shopping Cart"
+              description="Built a full-stack e-commerce application with user authentication, product management, payment processing, and an admin dashboard, with a focus on reliability and maintainability using DevOps-friendly deployment workflows."
+              ghLink="https://github.com/cor1234/Shopping_Cart"
+              demoLink="https://github.com/cor1234/Shopping_Cart"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={collegeProjectImg}
+              isBlog={false}
+              title="College Project"
+              description="A collaborative college project focused on practical application, team-based development, and building a functional solution that demonstrates real-world engineering skills and problem-solving ability."
+              ghLink="https://github.com/cor1234?tab=repositories"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
               title="Sign Language Detection"
-              description="Tools & technologies used: Python,Yolov5,Vs Code.
-– Sign language detection refers to the process of automatically recognizing and interpreting gestures and movements
-of the hands with audio facility"
+              description="Tools & technologies used: Python, Yolov5, VS Code. Sign language detection refers to the process of automatically recognizing and interpreting hand gestures with audio support."
               ghLink="https://github.com/cor1234/sign_language_detection"
-            //  demoLink="https://github.com/cor1234/sign_language_detection"
             />
           </Col>
 
@@ -39,10 +68,8 @@ of the hands with audio facility"
               imgPath={ngo}
               isBlog={false}
               title="Snappy Application"
-              description=" A real-time chat application is a digital platform that enables users to exchange text messages. It allows people
-to communicate in real-time,often featuring features like login ,logout and emoji support. "
+              description="A real-time chat application is a digital platform that enables users to exchange text messages. It allows people to communicate in real-time, often featuring features like login, logout, and emoji support."
               ghLink="https://github.com/cor1234/snappy"
-           //   demoLink="https://github.com/cor1234/snappy"
             />
           </Col>
 
@@ -51,11 +78,8 @@ to communicate in real-time,often featuring features like login ,logout and emoj
               imgPath={sorting}
               isBlog={false}
               title="Gesture Control"
-              description="Tools & technologies used: Python, PyAuto GUI, MediaPipe, Open cv
-∗ Gesture control refers to the ability to interact with multimedia content, such as videos,volume slider by using
-hand or body movements instead of traditional input devices like a mouse or keyboard."
+              description="Tools & technologies used: Python, PyAutoGUI, MediaPipe, OpenCV. Gesture control refers to the ability to interact with multimedia content using hand or body movements instead of traditional input devices."
               ghLink="https://github.com/EmrNITK/GestureControl"
-             // demoLink="https://gentle-medovik-d32b6e.netlify.app/"
             />
           </Col>
 

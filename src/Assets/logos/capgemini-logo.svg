@@ -1,0 +1,13 @@
+<svg width="260" height="80" viewBox="0 0 260 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Capgemini">
+  <defs>
+    <linearGradient id="capgGradient" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#2B6DFF"/>
+      <stop offset="100%" stop-color="#5D9BFF"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="260" height="80" rx="12" fill="#F5F9FF"/>
+  <text x="18" y="51" font-size="30" font-family="Segoe UI, Arial, sans-serif" font-weight="700" fill="#0C2D6B">Capgemini</text>
+  <rect x="198" y="18" width="44" height="44" rx="12" fill="url(#capgGradient)"/>
+  <path d="M212 25 L230 25 L230 55 L212 55 Z" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <path d="M212 40 H230" stroke="#ffffff" stroke-width="3"/>
+</svg>

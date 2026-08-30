@@ -6,26 +6,29 @@ import {
   SiPostman,
   SiHeroku,
   SiVercel,
+  SiJetbrains,
 } from "react-icons/si";
 
 function Toolstack() {
+  const tools = [
+    { name: "Linux", icon: <SiLinux /> },
+    { name: "VS Code", icon: <SiVisualstudiocode /> },
+    { name: "Postman", icon: <SiPostman /> },
+    { name: "Vercel", icon: <SiVercel /> },
+    { name: "Heroku", icon: <SiHeroku /> },
+    { name: "IntelliJ", icon: <SiJetbrains /> },
+  ];
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-      </Col>
+      {tools.map((tool) => (
+        <Col xs={4} md={2} key={tool.name} className="tech-icons">
+          <div className="tech-icon-wrap">
+            <div className="tech-icon-item">{tool.icon}</div>
+            <div className="tech-skill-name">{tool.name}</div>
+          </div>
+        </Col>
+      ))}
     </Row>
   );
 }
